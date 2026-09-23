@@ -34,7 +34,7 @@ shutil.copytree(
         "permissions.yaml",
         "LastSeasonChangeData",
         # Contains webhook URL that should not be on client
-        "Azumatt.AzuAntiCheat_Webhook.yml",
+        "*AzuAntiCheat*",
         # Configured server side due to encryption key
         "org.bepinex.plugins.servercharacters.cfg",
         # Contains webhook URL that should not be on client

@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "LanChelms"
 name = "DeepNorthModpack"
-versionNumber = "2.4.0"
+versionNumber = "3.0.0"
 description = "A pack of mods for the LanChelms Deep North Valheim server."
 websiteUrl = "https://github.com/jterrace/lanchelms-valheim-mods"
 containsNsfwContent = false

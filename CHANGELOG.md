@@ -1,3 +1,11 @@
+## v3.0.0
+
+ - Update for Valheim 1.0
+ - Replace VitByr-VBNetTweaks with Smoothbrain-Network
+ - Replace AllTameable with new split equivalents: LetMeTameYou, TamingTools, and
+   CreatureGenetics
+ - Update almost all the other existing mods.
+
 ## v2.4.0
 
  - Update InfiniteFire to 1.2.0

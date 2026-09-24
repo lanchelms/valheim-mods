@@ -17,10 +17,10 @@
 
 ### requiredWorldKeys:###
 #     required world keys needed before being able to tame, most likely bosses killed (default is none)
-#	  Do you want to require a boss or creature to be killed before you are able to tame this creature? Any world key can be specified (be careful though, if you misspell it, you will not be able to tame this creature).
-#	  You can separate multiple keys with a comma , as shown below.
-#	  If you do not have the required keys, when hovering over the creature it will say "Feral" instead of "Wild"
-#	  Below is an example that requires you to defeat both Eikthyr and Modor to be able to tame.
+#   Do you want to require a boss or creature to be killed before you are able to tame this creature? Any world key can be specified (be careful though, if you misspell it, you will not be able to tame this creature).
+#   You can separate multiple keys with a comma , as shown below.
+#   If you do not have the required keys, when hovering over the creature it will say "Feral" instead of "Wild"
+#   Below is an example that requires you to defeat both Eikthyr and Modor to be able to tame.
 #  requiredWorldKeys: defeated_dragon,defeated_eikthyr
 
 ### consumeItems:###
@@ -113,19 +113,19 @@
 # They are formatted the same as a standard creature except the name starts with "group_"
 
 ##Vanilla Values##
-#	commandable:		Boar/Lox/Hen/Asksvin=false, Wolf=true
-#	taming time:		1800 (seconds)
-#	fed duration:		600 (seconds)
-#	consume range:		Boar/Hen=1, Wolf=1.4, Lox=4 (units distance)
-#	consumeSearchInterval:	10 (seconds)
-#	consumeSearchRange:	10 (units distance)
-#	consumeItems:		many foods
-#	hostileToSelf:		false
-#	procretion:			true
-#	maxCreatures:		Boar=5, Wolf/Lox=4, Hen/Asksvin=10 (max creatures in area before unable to procreate)
-#	pregnancyChance:	0.33 (Lower is better, out of 1, this is 66% chance)
-#	pregnancyDuration:	Boar/Wolf/Hen=60, Asksvin=90, Lox=120 (seconds)
-#	growTime:			Boar/Wolf=3000, Lox=6000, Hen/Asksvin=1800 for Egg Hatch + 3000 for baby to grow up (seconds)
+# commandable:  Boar/Lox/Hen/Asksvin=false, Wolf=true
+# taming time:  1800 (seconds)
+# fed duration:  600 (seconds)
+# consume range:  Boar/Hen=1, Wolf=1.4, Lox=4 (units distance)
+# consumeSearchInterval: 10 (seconds)
+# consumeSearchRange: 10 (units distance)
+# consumeItems:  many foods
+# hostileToSelf:  false
+# procretion:   true
+# maxCreatures:  Boar=5, Wolf/Lox=4, Hen/Asksvin=10 (max creatures in area before unable to procreate)
+# pregnancyChance: 0.33 (Lower is better, out of 1, this is 66% chance)
+# pregnancyDuration: Boar/Wolf/Hen=60, Asksvin=90, Lox=120 (seconds)
+# growTime:   Boar/Wolf=3000, Lox=6000, Hen/Asksvin=1800 for Egg Hatch + 3000 for baby to grow up (seconds)
 
 
 ### Base defaults, applied automatically to every creature ###
@@ -134,7 +134,9 @@ group_Default:
   commandable: true
   tamingTime: 1800
   fedDuration: 600
-  consumeRange: 1.6
+  # Normal-sized creatures. Vanilla reference: Boar/Hen=1, Wolf=1.4, Lox=4.
+  # Range is measured from the creature's center, so bigger bodies need more.
+  consumeRange: 1.5
   consumeSearchInterval: 15
   consumeSearchRange: 10
   consumeItems: Raspberry,Blueberries,Carrot,Turnip,Mushroom,Cloudberry,OnionSoup,Onion
@@ -160,10 +162,10 @@ group_NotPicky:
 
 ### "Just for funzies" ###
 # Was the old "*JustForFunzies" block: single mobs can be tamed, but they
-# do not breed and are shrunk down. Note hostileToSelf is on, so tamed ones
-# fight their wild counterparts.
+# do not breed. hostileToSelf is currently off, so tamed ones are NOT attacked
+# by their wild counterparts (this was on in the old AllTameable config).
+# consumeRange inherits the 1.5 default; oversized members override it below.
 group_JustForFunzies:
-  consumeRange: 5
   consumeSearchInterval: 30
   consumeItems: RawMeat,NeckTail,FishRaw,DeerMeat,WolfMeat,LoxMeat,HareMeat,ChickenMeat,SerpentMeat,BugMeat,AsksvinMeat,Softtissue
   hostileToSelf: false
@@ -222,7 +224,6 @@ Troll:
 Leech:
   groups: RawMeat
   size: 2
-  consumeRange: 4
 
 ####################  Not picky  #######################################
 
@@ -249,11 +250,10 @@ Draugr:
 
 Goblin:
   groups: JustForFunzies
-  consumeRange: 2
 
 GoblinBrute:
   groups: JustForFunzies
-  consumeRange: 5
+  consumeRange: 2
 
 GoblinShaman:
   groups: JustForFunzies
@@ -267,9 +267,9 @@ Surtling:
   consumeItems: Coal,ElderBark
 
 SeekerBrute:
-  groups: RawMeat
+  groups: JustForFunzies
   consumeRange: 2
 
 Morgen,Morgen_NonSleeping:
-  groups: RawMeat
-  consumeRange: 2
+  groups: JustForFunzies
+  consumeRange: 4

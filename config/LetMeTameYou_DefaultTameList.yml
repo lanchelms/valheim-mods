@@ -163,10 +163,10 @@ group_NotPicky:
 # do not breed and are shrunk down. Note hostileToSelf is on, so tamed ones
 # fight their wild counterparts.
 group_JustForFunzies:
-  consumeRange: 1.5
+  consumeRange: 5
   consumeSearchInterval: 30
   consumeItems: RawMeat,NeckTail,FishRaw,DeerMeat,WolfMeat,LoxMeat,HareMeat,ChickenMeat,SerpentMeat,BugMeat,AsksvinMeat,Softtissue
-  hostileToSelf: true
+  hostileToSelf: false
   procreation: false
   maxCreatures: 1
   pregnancyChance: 0
@@ -203,16 +203,26 @@ BlobLava:
 Serpent:
   groups: RawMeat
   size: 2
-  consumeRange: 2
+  consumeRange: 5
 
 BonemawSerpent:
   groups: RawMeat
   size: 2
-  consumeRange: 2
+  consumeRange: 5
 
 Ulv:
   groups: RawMeat
   egg: drake(1800:#FFFF00:0.5)
+
+Troll:
+  groups: RawMeat
+  size: 2
+  consumeRange: 4
+
+Leech:
+  groups: RawMeat
+  size: 2
+  consumeRange: 4
 
 ####################  Not picky  #######################################
 
@@ -239,18 +249,27 @@ Draugr:
 
 Goblin:
   groups: JustForFunzies
+  consumeRange: 2
 
 GoblinBrute:
   groups: JustForFunzies
-  consumeRange: 1.8
+  consumeRange: 5
 
 GoblinShaman:
   groups: JustForFunzies
 
 GoblinShaman_Hildir,GoblinShaman_Hildir_nochest:
   groups: JustForFunzies
-  consumeRange: 1.8
+  consumeRange: 2
 
 Surtling:
   groups: JustForFunzies
   consumeItems: Coal,ElderBark
+
+SeekerBrute:
+  groups: RawMeat
+  consumeRange: 2
+
+Morgen,Morgen_NonSleeping:
+  groups: RawMeat
+  consumeRange: 2

@@ -46,6 +46,7 @@ valheim = [ "modpacks", "server-side", "client-side" ]
 "JereKuusela-Server_devcommands" = "1.113.0"
 "Meldurson-AllTameableTamingOverhaul" = "1.5.4"
 "Meldurson-LetMeTameYou" = "0.0.3"
+"Meldurson-TamingTools" = "0.0.2"
 "MidnightMods-Mistward" = "0.7.4"
 "MidnightMods-ValheimInfiniteFire" = "1.4.0"
 "Mydayyy-ServerSideMap" = "1.3.14"

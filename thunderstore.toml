@@ -44,7 +44,6 @@ valheim = [ "modpacks", "server-side", "client-side" ]
 "ComfyMods-Gizmo" = "1.16.0"
 "Digitalroot-Better_Wisps" = "1.0.44"
 "JereKuusela-Server_devcommands" = "1.113.0"
-"Meldurson-AllTameableTamingOverhaul" = "1.5.4"
 "Meldurson-CreatureGenetics" = "0.0.3"
 "Meldurson-LetMeTameYou" = "0.0.3"
 "Meldurson-TamingTools" = "0.0.2"

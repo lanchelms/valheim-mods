@@ -1,0 +1,48 @@
+#The general format for this list is as follows
+
+#PrefabName:
+#    MatePrefabName:
+#       Offspring1: Chance out of 100
+#       Offspring2: Chance out of 100
+#    MatePrefabName2:
+#    MatePrefabName_etc:
+#    canMateWithSelf: true or false
+
+#Below is an example of having Fueling Shaman only able to breed with Fueling Berserker
+# and have an option of offspring of any Fueling
+#GoblinShaman:
+#    GoblinBrute:
+#        GoblinBrute: 25
+#        Goblin: 50
+#    canMateWithSelf: false
+
+#GoblinBrute:
+#    canMateWithSelf: false
+
+#With this:
+#    - shaman can only breed with a brute
+#    - brute cannot have offspring
+#    - The offspring is a 25% chance of brute, 50% chance of goblin
+#    - since this is less than 100%, the remaining is 25% chance of shaman
+
+
+#if you want to have any number of creatures be able to breed with eachother
+# you can just add them to a line separated by commas "," and ending with a colon ":"
+# such as all the different Dverger
+Dverger,DvergerMage,DvergerMageFire,DvergerMageIce,DvergerMageSupport,DvergerAshlands:
+
+#Skeleton,Skeleton_Poison:
+
+#Draugr,Draugr_Elite:
+
+#Seeker,SeekerBrute:
+
+Morgen,Morgen_NonSleeping:
+  
+Skeleton_Hildir,Skeleton_Hildir_nochest:
+
+Fenring_Cultist_Hildir,Fenring_Cultist_Hildir_nochest:
+
+GoblinShaman_Hildir,GoblinShaman_Hildir_nochest:
+
+GoblinBruteBros,GoblinBruteBros_nochest:

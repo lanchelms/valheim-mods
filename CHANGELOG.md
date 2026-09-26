@@ -1,3 +1,16 @@
+## v3.1.0
+
+ - Update AzuAntiCheat
+ - Update PlantEasily
+ - Update PlantEverything
+ - Update ServerDevcommands
+ - Update BepInEx
+ - Update TradersExtended
+ - Update LetMeTameYou
+ - Update AzuExtendedPlayerInventory
+ - Update BiomeLock
+ - Update AzuCraftyBoxes
+
 ## v3.0.0
 
  - Update for Valheim 1.0

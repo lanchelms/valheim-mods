@@ -1,3 +1,7 @@
+## v3.2.0
+
+ - Update LongshipUpgrades, VentureLocationReset, and AzuAntiCheat
+
 ## v3.1.0
 
  - Update AzuAntiCheat

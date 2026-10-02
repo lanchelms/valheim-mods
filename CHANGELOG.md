@@ -1,3 +1,12 @@
+## v3.3.0
+
+ - Update BiomeLock to 1.1.8
+ - Update BetterSleepBruh to 2.0.12
+ - Update MiningCaves to 1.0.3
+ - Update AAACrafting to 2.1.11
+ - Update AzuCraftyBoxes to 1.8.27
+ - Update AzuExtendedPlayerInventory to 2.6.1
+
 ## v3.2.0
 
  - Update LongshipUpgrades, VentureLocationReset, and AzuAntiCheat

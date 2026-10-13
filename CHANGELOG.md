@@ -1,3 +1,16 @@
+## v3.4.0
+
+ - Update AzuAntiCheat to 5.2.1
+ - Update AzuCraftyBoxes to 1.8.28
+ - Update AzuExtendedPlayerInventory to 2.6.3
+ - Update BetterSleepBruh to 2.1.1
+ - Update BiomeLock to 1.2.0
+ - Update ConditionalConfigSync to 1.0.10
+ - Update CreatureGenetics to 0.1.0
+ - Update PlantEasily to 2.3.0
+ - Update Seasonality to 3.8.4
+ - Update TradersExtended to 2.0.5
+
 ## v3.3.0
 
  - Update BiomeLock to 1.1.8

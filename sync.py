@@ -46,6 +46,8 @@ shutil.copytree(
         "alias.yaml",
         # LetMeTameYou backup file
         "LetMeTameYou_DefaultTameList.yml.stock-backup",
+        # Sail textures are server driven
+        "ShipwrightsTouch",
     ),
 )
 

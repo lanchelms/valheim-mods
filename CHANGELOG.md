@@ -1,3 +1,14 @@
+## v3.5.0
+
+ - Update AzuExtendedPlayerInventory to 2.6.4
+ - Update BetterSleepBruh to 2.1.2
+ - Update BiomeLock to 1.2.1
+ - Update ConditionalConfigSync to 1.0.11
+ - Update CreatureGenetics to 0.1.1
+ - Update PlantEverything to 1.21.4
+ - Update ShipwrightsTouch to 1.4.0
+ - Update SkilledCarryWeight to 1.6.1
+
 ## v3.4.0
 
  - Update AzuAntiCheat to 5.2.1

@@ -1,3 +1,16 @@
+## v3.6.0
+
+ - Update AAACrafting to 2.1.12
+ - Update AzuAntiCheat to 5.2.2
+ - Update AzuExtendedPlayerInventory to 2.6.6
+ - Update BepInEx to 5.4.2360
+ - Update BiomeLock to 1.2.2
+ - Update LongshipUpgrades to 1.0.24
+ - Update PlantEasily to 2.3.1
+ - Update Seasonality to 3.8.6
+ - Update Server_devcommands to 1.116.0
+ - Update VentureLocationReset to 1.1.2
+
 ## v3.5.0
 
  - Update AzuExtendedPlayerInventory to 2.6.4

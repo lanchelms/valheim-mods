@@ -1,3 +1,12 @@
+## v3.7.0
+
+ - Update LetMeTameYou to 0.1.1
+ - Update Seasonality to 3.8.7
+ - Update TradersExtended to 2.0.6
+ - Update BetterWisps to 1.0.46
+ - Update BiomeLock to 1.2.3
+ - Update DiscordConnector to 3.2.0
+
 ## v3.6.0
 
  - Update AAACrafting to 2.1.12

@@ -1,3 +1,7 @@
+## v3.8.0
+
+ - Update BiomeLock to 1.2.4
+
 ## v3.7.0
 
  - Update LetMeTameYou to 0.1.1
